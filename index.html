@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.image_list{
+				position:relative; 
+               background-image:url("img/bg.jpg" ) ;
+               height: 700px;
+               width: 1280px;
+               background-repeat: no-repeat;
+                background-position:150px 0;
+			}
+			#xin{
+				position: relative;
+				width: 900px;
+				top: 30px;
+				left: 330px;
+				animation:move 2s linear infinite;
+			}
+			@keyframes move{
+				0%{width: 900px;}
+				50%{width: 950px;}
+				100%{width: 900px;}
+			}
+			#zi1{
+				position: relative;
+				top: -330px;
+				left: 570px;
+			}
+			#zi2{
+				position: relative;
+				top: -330px;
+				left: 750px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="image_list">
+			<img src="img/x2.png" id="xin" />
+		
+		</div>
+	</body>
+	<body>
+	<div class="zi">
+			<font size="6" id="zi1">您喜欢的商品已降价！</font><br />
+			<font size="7"id="zi2">请及时查收！</font>
+		</div>
+	</body>
+</html>
